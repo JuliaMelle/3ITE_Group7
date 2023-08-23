@@ -1,0 +1,12 @@
+@font-face {
+    font-family: Regular_Inter;
+    src: url(../assets/Inter/static/Inter-Regular.ttf);
+
+ }
+ @font-face {
+     font-family: Bold_Inter;
+    src: url(../assets/Inter/static/Inter-Bold.ttf);
+ }   
+ * {
+    font-family:Regular_Inter;
+ }
