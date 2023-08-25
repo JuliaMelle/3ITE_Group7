@@ -40,27 +40,27 @@ if (isset($_POST['Submit'])) {
     }
 
     // 2nd image
-    $imgName2 = $_FILES['image_v2']['name'];
-    $imgTmp2 = $_FILES['image_v2']['tmp_name'];
-    $imgSize2 = $_FILES['image_v2']['size'];
+    // $imgName2 = $_FILES['image_v2']['name'];
+    // $imgTmp2 = $_FILES['image_v2']['tmp_name'];
+    // $imgSize2 = $_FILES['image_v2']['size'];
 
-    $imgExt2 = strtolower(pathinfo($imgName2, PATHINFO_EXTENSION));
+    // $imgExt2 = strtolower(pathinfo($imgName2, PATHINFO_EXTENSION));
 
-    $allowExt  = array('jpeg', 'jpg', 'png', 'gif');
+    // $allowExt  = array('jpeg', 'jpg', 'png', 'gif');
 
-    $userPic2 = time() . '_' . rand(1000, 9999) . '.' . $imgExt2;
+    // $userPic2 = time() . '_' . rand(1000, 9999) . '.' . $imgExt2;
 
-    // IMAGE SIZE
-    if (in_array($imgExt, $allowExt)) {
+    // // IMAGE SIZE
+    // if (in_array($imgExt, $allowExt)) {
 
-        if ($imgSize2 < 5000000) {
-            move_uploaded_file($imgTmp2, $upload_dir2 . $userPic2);
-        } else {
-            $errorMsg = 'Image too large';
-        }
-    } else {
-        $errorMsg = 'Please select a valid image';
-    }
+    //     if ($imgSize2 < 5000000) {
+    //         move_uploaded_file($imgTmp2, $upload_dir2 . $userPic2);
+    //     } else {
+    //         $errorMsg = 'Image too large';
+    //     }
+    // } else {
+    //     $errorMsg = 'Please select a valid image';
+    // }
 
     // if (empty($first_name) or empty($last_name) or empty($number)or empty($username) or empty($email) or empty($password)) {
     //     $errorMsg = 'There is a missing input. Cannot complete registration. Please try again.';
@@ -72,13 +72,7 @@ if (isset($_POST['Submit'])) {
         header('Location: ../registration_form.php?authenticate=false');
     }
   
-    if (empty($errorMsg)) {
-        // Perform further actions like saving data to a database or sending emails
-        // Redirect to a success page or display a success message
-        // Example: header("Location: success.php");
-        // Remember to exit or die after a redirect
-        exit;
-    }
+
 
     $sql2 = "SELECT * FROM users WHERE username = '$username' OR email = '$email'";
     $result2 = mysqli_query($conn, $sql2);
@@ -114,74 +108,5 @@ if (isset($_POST['Submit'])) {
         mysqli_close($conn);
     }
 
-
-    // $sql2 = "SELECT * FROM users";
-    // if ($result = $conn->query($sql2)) {
-    //     if ($result->num_rows > 0) {
-    //         while ($row = $result->fetch_array()) {
-    //             if (($username == $row['username'])) {
-    //                 header('Location: ../registration_form.php?username=false');
-    //             } 
-    //             if (($email == $row['email'])) {
-    //                 header('Location: ../registration_form.php?email=false');
-    //             }
-    //             if (($username == $row['username']) and ($email == $row['email'])) {
-    //                 header('Location: ../registration_form.php?useremail=false');
-    //             }
-    //         }
-    //     }
-    // }
-
-
-
-    $sql3 = "SELECT * FROM users";
-    if ($result = $conn->query($sql3)) {
-        if ($result->num_rows > 0) {
-            while ($row = $result->fetch_array()) {
-                if (empty($first_name) or empty($username) or empty($email) or empty($password) or empty($address)) {
-                    $errorMsg = 'There is a missing input. Cannot complete registration. Please try again.';
-                    header('Location: ../registration_form.php?authenticate=false');
-                }
-                if (($username == $row['username'])) {
-                    header('Location: ../registration_form.php?username=false');
-                }
-                if (($email == $row['email'])) {
-                    header('Location: ../registration_form.php?email=false');
-                }
-                if (($username == $row['username']) and ($email == $row['email'])) {
-  header('Location: ../frontend/register.php?useremail=false');                
-}
-                if (($username !== $row['username'] or $email !== $row['email']) and ($username == $row['username']) and ($email == $row['email'])) {
-                    $sql = "INSERT INTO `users`
-                (`first_name`, `username`, `email`, `password`, `address`, `profile_img`, `valid_id_img`) 
-                VALUES (
-                    '" . $first_name . "',
-                    '" . $username . "',
-                    '" . $email . "',
-                    '" . $password . "',
-                    '" . $address . "',
-                    '" . $userPic . "',
-                    '" . $userPic2 . "'
-                    )";
-
-                    //3. Execute SQL
-                    if (mysqli_query($conn, $sql)) {
-                        $_SESSION['loggedin'] = TRUE;
-                        $_SESSION['username'] = $username;
-                        $_SESSION['password'] = $password;
-
-                        // header('Location:authenticate2.php');
-                        header('Location:../frontend/index.php');
-
-                    } else {
-                        mysqli_error($conn);
-                        header('Location: ../registration_form?authenticate=false');
-                    }
-
-                    mysqli_close($conn);
-                }
-            }
-        }
-    }
 }
 ?>
