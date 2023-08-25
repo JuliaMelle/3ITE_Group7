@@ -62,9 +62,22 @@ if (isset($_POST['Submit'])) {
         $errorMsg = 'Please select a valid image';
     }
 
-    if (empty($first_name) or empty($last_name) or empty($number)or empty($username) or empty($email) or empty($password) or empty($address)) {
+    // if (empty($first_name) or empty($last_name) or empty($number)or empty($username) or empty($email) or empty($password)) {
+    //     $errorMsg = 'There is a missing input. Cannot complete registration. Please try again.';
+    //     header('Location: ../registration_form.php?authenticate=false');
+    // }
+
+    if (empty($first_name)) {
         $errorMsg = 'There is a missing input. Cannot complete registration. Please try again.';
         header('Location: ../registration_form.php?authenticate=false');
+    }
+  
+    if (empty($errorMsg)) {
+        // Perform further actions like saving data to a database or sending emails
+        // Redirect to a success page or display a success message
+        // Example: header("Location: success.php");
+        // Remember to exit or die after a redirect
+        exit;
     }
 
     $sql2 = "SELECT * FROM users WHERE username = '$username' OR email = '$email'";
@@ -73,8 +86,8 @@ if (isset($_POST['Submit'])) {
     $row2 = mysqli_fetch_assoc($result2);
 
     if ($count2 > 0) {
-        header('Location: ../registration_form.php?useremail=false');
-    } else {
+        header('Location: ../frontend/register.php?useremail=false');
+        } else {
         $sql = "INSERT INTO `users`
         (`first_name`, `last_name`, `number`, `program`, `email`, `username`, `password`, `profile`) 
         VALUES (
@@ -136,8 +149,8 @@ if (isset($_POST['Submit'])) {
                     header('Location: ../registration_form.php?email=false');
                 }
                 if (($username == $row['username']) and ($email == $row['email'])) {
-                    header('Location: ../registration_form.php?useremail=false');
-                }
+  header('Location: ../frontend/register.php?useremail=false');                
+}
                 if (($username !== $row['username'] or $email !== $row['email']) and ($username == $row['username']) and ($email == $row['email'])) {
                     $sql = "INSERT INTO `users`
                 (`first_name`, `username`, `email`, `password`, `address`, `profile_img`, `valid_id_img`) 

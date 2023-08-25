@@ -22,17 +22,45 @@
 
 <body class="body">
     <div class="parent">
+    <?php
+        if (isset($_GET['authenticate'])) { //check if authenticate key exists in URL
+          if ($_GET['authenticate'] == "false") {
+        ?>
+            <br>
+            <div class="alert alert-warning d-flex align-items-center capsule" role="alert">
+                    <div>
+                    Invalid</strong> Please try again
+                    </div>
+                </div>
+        <?php
+          }
+        }
+        ?>
+          <?php
+        if (isset($_GET['useremail'])) { //check if authenticate key exists in URL
+          if ($_GET['useremail'] == "false") {
+        ?>
+   <br>
+            <div class="alert alert-warning d-flex align-items-center capsule" role="alert">
+                    <div>
+                    Invalid<strong> username or email. Already existing.</strong> Please try again.
+                    </div>
+                </div>
 
+<?php
+          }
+        }
+        ?>
         <div class=" mid_card card card_width ">
             <div class="card-body card_width_body text_left">
                 <h3 class="card-title font_bold create_acc">CREATE ACCOUNT</h3>
                 <!-- <p class="card-text">WELCOME TO UST</p> -->
                 <form class="form-flex column" id="regForm" action="../backend/register_data.php" method="post" enctype="multipart/form-data">
-                    <input class="form-control margin_forms font_bold" type="text" placeholder="FIRST NAME" aria-label="default input example" name="first_name">
-                    <input class="form-control margin_forms font_bold" type="text" placeholder="LAST NAME" aria-label="default input example" name="last_name">
-                    <input class="form-control margin_forms font_bold" type="text" placeholder="+63" aria-label="default input example" name="number">
+                    <input class="form-control margin_forms font_bold" type="text" placeholder="FIRST NAME" aria-label="default input example" name="first_name" required>
+                    <input class="form-control margin_forms font_bold" type="text" placeholder="LAST NAME" aria-label="default input example" name="last_name" required>
+                    <input class="form-control margin_forms font_bold" type="text" placeholder="+63" aria-label="default input example" name="number" required> 
                     <!-- <input class="form-control margin_forms font_bold" type="text" placeholder="DEGREE PROGRAM" aria-label="default input example" name="program"> -->
-                    <select class="form-select font_bold gray margin_forms" placeholder="DEGREE PROGRAM" name="program">
+                    <select class="form-select font_bold gray margin_forms" placeholder="DEGREE PROGRAM" name="program" >
                         <option selected>DEGREE PROGRAM </option>
                         <option value="FACULTY OF ARTS AND LETTERS" name="program">FACULTY OF ARTS AND LETTERS</option>
                         <option value="AMV COLLEGE OF ACCOUNTANCY" name="program">AMV COLLEGE OF ACCOUNTANCY</option>
@@ -49,9 +77,9 @@
                         <option value="COLLEGE OF NURSING" name="program">COLLEGE OF NURSING</option>
 
                     </select>
-                    <input class="form-control margin_forms font_bold" type="text" placeholder="EMAIL ADDRESS" aria-label="default input example" name="email">
-                    <input class="form-control margin_forms font_bold" type="text" placeholder="USERNAME" aria-label="default input example" name="username">
-                    <input class="form-control margin_forms font_bold" type="password" placeholder="PASSWORD" aria-label="default input example" name="password">
+                    <input class="form-control margin_forms font_bold" type="text" placeholder="EMAIL ADDRESS" aria-label="default input example" name="email" required>
+                    <input class="form-control margin_forms font_bold" type="text" placeholder="USERNAME" aria-label="default input example" name="username" required>
+                    <input class="form-control margin_forms font_bold" type="password" placeholder="PASSWORD" aria-label="default input example" name="password" required>
                     <div class="mb-3">
                         <label for="formFile" class="form-label text_left font_bold">PROFILE PICTURE</label>
                         <input class="form-control" type="file" id="formFile" name="image"></input>
