@@ -31,7 +31,24 @@
                     <input class="form-control margin_forms font_bold" type="text" placeholder="FIRST NAME" aria-label="default input example" name="first_name">
                     <input class="form-control margin_forms font_bold" type="text" placeholder="LAST NAME" aria-label="default input example" name="last_name">
                     <input class="form-control margin_forms font_bold" type="text" placeholder="+63" aria-label="default input example" name="number">
-                    <input class="form-control margin_forms font_bold" type="text" placeholder="DEGREE PROGRAM" aria-label="default input example" name="program">
+                    <!-- <input class="form-control margin_forms font_bold" type="text" placeholder="DEGREE PROGRAM" aria-label="default input example" name="program"> -->
+                    <select class="form-select font_bold gray margin_forms" placeholder="DEGREE PROGRAM" name="program">
+                        <option selected>DEGREE PROGRAM </option>
+                        <option value="FACULTY OF ARTS AND LETTERS" name="program">FACULTY OF ARTS AND LETTERS</option>
+                        <option value="AMV COLLEGE OF ACCOUNTANCY" name="program">AMV COLLEGE OF ACCOUNTANCY</option>
+                        <option value="COLLEGE OF ARCHITECTURE" name="program">COLLEGE OF ARCHITECTURE</option>
+                        <option value="COLLEGE OF COMMERCE AND BUSINESS ADMINISTRATION" name="program">COLLEGE OF COMMERCEAND BUSINESS ADMINISTRATION</option>
+                        <option value="COLLEGE OF FINE ARTS AND DESIGN" name="program">COLLEGE OF FINE ARTS AND DESIGN</option>
+
+                        <option value="COLLEGE OF EDUCATION" name="program">COLLEGE OF EDUCATION</option>
+                        <option value="COLLEGE OF TOURISM AND HOSPITALITY MANAGEMENT" name="program">COLLEGE OF TOURISM AND HOSPITALITY MANAGEMENT</option>
+                        <option value="COLLEGE OF INFORMATION AND COMPUTING SCIENCE" name="program">COLLEGE OF INFORMATION AND COMPUTING SCIENCE</option>
+                        <option value="FACULTY OF ENGINEERING" name="program">FACULTY OF ENGINEERING</option>
+                        <option value="FACULTY OF PHARMACY" name="program">FACULTY OF PHARMACY</option>
+                        <option value="FACULTY OF MEDICINE AND SURGERY" name="program">FACULTY OF MEDICINE AND SURGERY</option>
+                        <option value="COLLEGE OF NURSING" name="program">COLLEGE OF NURSING</option>
+
+                    </select>
                     <input class="form-control margin_forms font_bold" type="text" placeholder="EMAIL ADDRESS" aria-label="default input example" name="email">
                     <input class="form-control margin_forms font_bold" type="text" placeholder="USERNAME" aria-label="default input example" name="username">
                     <input class="form-control margin_forms font_bold" type="password" placeholder="PASSWORD" aria-label="default input example" name="password">
