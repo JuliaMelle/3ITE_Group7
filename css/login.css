@@ -16,7 +16,7 @@
   width: 90%;
   text-align: center;
 
-  margin-top: 100px;
+  margin-top: 20px!important;
 
   background-color: #151515 !important;
   color: white;
@@ -36,6 +36,10 @@
 }
 .card_width {
   width: 40%;
+}
+.capsule{
+  margin-top: 30px!important; 
+  width:40%;
 }
 .card_width_body {
   width: 80%;
@@ -58,7 +62,12 @@
 .button_size {
   width: 40% !important;
 }
+
+
 @media only screen and (max-width: 1190px) {
+  .capsule{
+    width:60%;
+  }
   .card_width {
     width: 60%;
   }
@@ -67,6 +76,9 @@
   }
 }
 @media only screen and (max-width: 850px) {
+  .capsule{
+    width:90%;
+  }
   .card_width {
     width: 90%;
   }

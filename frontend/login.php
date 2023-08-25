@@ -8,7 +8,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Thomasian OrgLink</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS -->
@@ -22,20 +22,51 @@
 
 <body class="body">
     <div class="parent">
+        <?php
+        if (isset($_GET['fillout'])) { //check if authenticate key exists in URL
+            if ($_GET['fillout'] == "false") { ?>
 
+                <!-- <div class="alert">
+                        <span class="closebtn">&times;</span>  
+                        <strong style="color:white">Please fill out</strong> 
+                        </div> -->
+
+                <div class="alert alert-warning d-flex align-items-center capsule" role="alert">
+                    <div>
+                        Please fill out
+                    </div>
+                </div>
+        <?php
+            }
+        }
+        ?>
+        <?php
+        if (isset($_GET['password'])) { //check if authenticate key exists in URL
+            if ($_GET['password'] == "false") { ?>
+                <div class="alert alert-warning d-flex align-items-center capsule" role="alert">
+                    <div>
+                        Incorrect Username / Password</strong> <br>Please try again
+                    </div>
+                </div>
+
+        <?php
+            }
+        }
+        ?>
         <div class=" mid_card card card_width ">
             <div class="card-body card_width_body text_left">
                 <h3 class="card-title font_bold create_acc">WELCOME THOMASIANS</h3>
                 <!-- <p class="card-text">WELCOME TO UST</p> -->
+                <form action="../backend/authenticate.php" method="post">
+                    <input class="form-control margin_forms font_bold" type="text" placeholder="USERNAME" aria-label="default input example" name="username">
 
-                <input class="form-control margin_forms font_bold" type="text" placeholder="EMAIL ADDRESS" aria-label="default input example">
-
-                <input class="form-control margin_forms font_bold" type="password" placeholder="PASSWORD" aria-label="default input example">
+                    <input class="form-control margin_forms font_bold" type="password" placeholder="PASSWORD" aria-label="default input example" name="password">
 
             </div>
             <div class="button_position">
-                <button type="button" class="btn btn-warning  button_size font_bold">LOGIN</button>
-                <button type="button" class="btn btn-warning  button_size font_bold register">REGISTER</button>
+                <button type="submit" name="Submit" class="btn btn-warning  button_size font_bold">LOGIN</button>
+                <a href="register.php" type="button" class="btn btn-warning  button_size font_bold register">REGISTER</button></a>
+                </form>
 
             </div>
         </div>
@@ -43,6 +74,23 @@
     </div>
 
     <script src="" async defer></script>
+
+
+    <!-- <script src="" async defer></script> -->
+    <script>
+        var close = document.getElementsByClassName("closebtn");
+        var i;
+
+        for (i = 0; i < close.length; i++) {
+            close[i].onclick = function() {
+                var div = this.parentElement;
+                div.style.opacity = "0";
+                setTimeout(function() {
+                    div.style.display = "none";
+                }, 600);
+            }
+        }
+    </script>
 </body>
 
 </html>

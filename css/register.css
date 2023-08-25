@@ -56,6 +56,7 @@
 .button_size {
   width: 40% !important;
 }
+
 @media only screen and (max-width: 1190px) {
   .card_width {
     width: 60%;
