@@ -35,6 +35,9 @@
 .card_width {
   width: 40%;
 }
+.gray{
+  color: gray!important;
+}
 .card_width_body {
   width: 80%;
 }
