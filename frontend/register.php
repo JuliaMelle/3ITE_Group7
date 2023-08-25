@@ -58,7 +58,7 @@
                     </div>
             </div>
             <div class="button_position">
-                <a href="login.php" button type="button" class="btn btn-warning  button_size font_bold">LOGIN</button></a>
+                <a href="login.php" button type="button" class="btn btn-dark  button_size font_bold">LOGIN</button></a>
                 <button type="submit" name="Submit" class="btn btn-warning  button_size font_bold register">REGISTER</button>
 
             </div>
