@@ -16,7 +16,7 @@
   width: 90%;
   text-align: center;
 
-  margin-top: 100px;
+  margin-top: 20px!important;
 
   background-color: #151515 !important;
   color: white;
@@ -29,11 +29,17 @@
 }
 .create_acc {
   margin-top: 30px;
-  margin-bottom: 30px !important;
+  margin-bottom: 50px !important;
   text-align: left;
+
+
 }
 .card_width {
   width: 40%;
+}
+.capsule{
+  margin-top: 30px!important; 
+  width:40%;
 }
 .card_width_body {
   width: 80%;
@@ -46,7 +52,7 @@
   text-align: left !important;
 }
 .button_position {
-  margin-top: 20px;
+  margin-top: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -57,7 +63,11 @@
   width: 40% !important;
 }
 
+
 @media only screen and (max-width: 1190px) {
+  .capsule{
+    width:60%;
+  }
   .card_width {
     width: 60%;
   }
@@ -66,6 +76,9 @@
   }
 }
 @media only screen and (max-width: 850px) {
+  .capsule{
+    width:90%;
+  }
   .card_width {
     width: 90%;
   }
