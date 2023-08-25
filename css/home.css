@@ -1,64 +1,87 @@
-
-.caption_carousel 
-{
-    text-align: left!important;
-    padding-bottom: 30rem!important;
+.caption_carousel {
+  text-align: left !important;
+  padding-bottom: 30rem !important;
 }
-.welcome{
-    line-height: 2px!important;
+.welcome {
+  line-height: 2px !important;
 }
 
-.end{
-    height: 100px!important;
+.end {
+  height: 100px !important;
 }
-.Head_carousel_text{
-    font-family: Bold_Inter;
+.Head_carousel_text {
+  font-family: Bold_Inter;
 }
-.filter{
-    filter: grayscale(110%);
-    filter: opacity(90%);
-    filter: brightness(0.30);
+.filter {
+  filter: grayscale(110%);
+  filter: opacity(90%);
+  filter: brightness(0.3);
 }
 hr.new4 {
-    border: 2px solid #FFC328;
-    opacity: 90%;
-    width: 100%;
+  border: 2px solid #ffc328;
+  opacity: 90%;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /* top, right, bottom, and left. */
+}
+.head_text {
+  margin-bottom: 40px;
+  font-family: Bold_Inter;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mid {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  text-align: center;
+}
+.display_mid {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+}
+.button_size {
+  width: 50% !important;
+}
+
+.button_position {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.button_mid {
+  width: 45% !important;
+  height: 50px;
+}
+
+@media only screen and (max-width: 850px) {
+  .button_size {
+    width: 100% !important;
+  }
+
+  .button_position {
     margin-top: 40px;
-    margin-bottom: 40px;
-      /* top, right, bottom, and left. */
-  }
-  .head_text{
-    margin-bottom: 40px;
-    font-family: Bold_Inter;
-  }
-  .parent {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .mid {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    text-align: center;
-  }
-  .display_mid{
-    display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
-    align-items: center !important;
-    text-align: center;
-  }
-  .button_size{
-    width: 50%!important;
-  }
 
-  
-@media only screen and (max-width: 850px) {
-
-    .button_size{
-        width: 100%!important;
-      }
+    align-items: center;
+  }
+  .button_view {
+    margin-top: 20px;
+  }
+  .button_mid {
+    width: 90% !important;
+    height: 50px;
+  }
 }
