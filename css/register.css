@@ -49,15 +49,24 @@
   text-align: left !important;
 }
 .button_position {
-  margin-top: 20px;
+  /* margin-top: 20px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 
-  width: 60%;
+  width: 60%; */
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.register {
+  margin-bottom: 20px;
 }
 .button_size {
-  width: 40% !important;
+  width: 80% !important;
 }
 
 @media only screen and (max-width: 1190px) {
@@ -78,13 +87,13 @@
   .button_position {
     margin-top: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     width: 90%;
   }
   .register {
-    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .button_size {
     width: 80% !important;
