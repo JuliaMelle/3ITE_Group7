@@ -16,7 +16,7 @@
   width: 90%;
   text-align: center;
 
-  margin-top: 100px;
+  margin-top: 30px;
 
   background-color: #151515 !important;
   color: white;
@@ -34,6 +34,12 @@
 }
 .card_width {
   width: 40%;
+}
+.capsule{
+  width:40%;
+}
+.gray{
+  color: gray!important;
 }
 .card_width_body {
   width: 80%;
@@ -60,6 +66,9 @@
   .card_width {
     width: 60%;
   }
+  .capsule{
+    width:60%;
+  }
   .card_width_body {
     width: 80%;
   }
@@ -67,6 +76,9 @@
 @media only screen and (max-width: 850px) {
   .card_width {
     width: 90%;
+  }
+  .capsule{
+    width:90%;
   }
   .card_width_body {
     width: 90%;
