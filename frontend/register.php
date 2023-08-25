@@ -33,7 +33,7 @@
                 <input class="form-control margin_forms font_bold" type="text" placeholder="DEGREE PROGRAM" aria-label="default input example">
                 <input class="form-control margin_forms font_bold" type="text" placeholder="EMAIL ADDRESS" aria-label="default input example">
                 <input class="form-control margin_forms font_bold" type="text" placeholder="USERNAME" aria-label="default input example">
-                <input class="form-control margin_forms font_bold" type="text" placeholder="PASSWORD" aria-label="default input example">
+                <input class="form-control margin_forms font_bold" type="password" placeholder="PASSWORD" aria-label="default input example">
                 <div class="mb-3">
                     <label for="formFile" class="form-label text_left font_bold">PROFILE PICTURE</label>
                     <input class="form-control" type="file" id="formFile">
