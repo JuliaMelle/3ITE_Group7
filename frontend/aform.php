@@ -39,7 +39,7 @@
                     <input class="form-control margin_forms font_bold" type="text" placeholder="LAST NAME" aria-label="default input example" name="last_name" required>
                     <input class="form-control margin_forms font_bold" type="text" placeholder="+63" aria-label="default input example" name="number" required> 
                      <!-- <input class="form-control margin_forms font_bold" type="text" placeholder="YEAR LEVEL" aria-label="default input example" name="yrlevel"> -->
-                    <select class="form-select font_bold gray margin_forms" placeholder="YEAR LEVEL:" name="yrlevel" >
+                    <select class="form-select font_bold gray margin_forms" placeholder="YEAR LEVEL" name="yrlevel" >
                         <option selected>YEAR LEVEL</option>
                         <option value="1ST YEAR" name="yrlevel">1ST YEAR</option>
                         <option value="2ND YEAR" name="yrlevel">2ND YEAR</option>
@@ -50,19 +50,19 @@
                     <!-- <input class="form-control margin_forms font_bold" type="text" placeholder="DEGREE PROGRAM" aria-label="default input example" name="program"> -->
                     <select class="form-select font_bold gray margin_forms" placeholder="DEGREE PROGRAM:" name="program" >
                         <option selected>DEGREE PROGRAM</option>
-                        <option value="FACULTY OF ARTS AND LETTERS" name="program">FACULTY OF ARTS AND LETTERS</option>
                         <option value="AMV COLLEGE OF ACCOUNTANCY" name="program">AMV COLLEGE OF ACCOUNTANCY</option>
-                        <option value="COLLEGE OF ARCHITECTURE" name="program">COLLEGE OF ARCHITECTURE</option>
-                        <option value="COLLEGE OF COMMERCE AND BUSINESS ADMINISTRATION" name="program">COLLEGE OF COMMERCEAND BUSINESS ADMINISTRATION</option>
-                        <option value="COLLEGE OF FINE ARTS AND DESIGN" name="program">COLLEGE OF FINE ARTS AND DESIGN</option>
-
-                        <option value="COLLEGE OF EDUCATION" name="program">COLLEGE OF EDUCATION</option>
-                        <option value="COLLEGE OF TOURISM AND HOSPITALITY MANAGEMENT" name="program">COLLEGE OF TOURISM AND HOSPITALITY MANAGEMENT</option>
-                        <option value="COLLEGE OF INFORMATION AND COMPUTING SCIENCE" name="program">COLLEGE OF INFORMATION AND COMPUTING SCIENCE</option>
+                        <option value="FACULTY OF ARTS AND LETTERS" name="program">FACULTY OF ARTS AND LETTERS</option>
                         <option value="FACULTY OF ENGINEERING" name="program">FACULTY OF ENGINEERING</option>
-                        <option value="FACULTY OF PHARMACY" name="program">FACULTY OF PHARMACY</option>
                         <option value="FACULTY OF MEDICINE AND SURGERY" name="program">FACULTY OF MEDICINE AND SURGERY</option>
+                        <option value="FACULTY OF PHARMACY" name="program">FACULTY OF PHARMACY</option>
+                        
+                        <option value="COLLEGE OF ARCHITECTURE" name="program">COLLEGE OF ARCHITECTURE</option>
+                        <option value="COLLEGE OF COMMERCE AND BUSINESS ADMINISTRATION" name="program">COLLEGE OF COMMERCE AND BUSINESS ADMINISTRATION</option>
+                        <option value="COLLEGE OF EDUCATION" name="program">COLLEGE OF EDUCATION</option>
+                        <option value="COLLEGE OF FINE ARTS AND DESIGN" name="program">COLLEGE OF FINE ARTS AND DESIGN</option>
+                        <option value="COLLEGE OF INFORMATION AND COMPUTING SCIENCE" name="program">COLLEGE OF INFORMATION AND COMPUTING SCIENCE</option>
                         <option value="COLLEGE OF NURSING" name="program">COLLEGE OF NURSING</option>
+                        <option value="COLLEGE OF TOURISM AND HOSPITALITY MANAGEMENT" name="program">COLLEGE OF TOURISM AND HOSPITALITY MANAGEMENT</option>
                     </select>
 
                     <input class="form-control margin_forms font_bold" type="text" placeholder="EMAIL ADDRESS" aria-label="default input example" name="email" required>
