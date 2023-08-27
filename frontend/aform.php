@@ -77,7 +77,6 @@
             </div>
             <div class="button_position">
                 <button type="submit" name="Submit" class="btn btn-warning  button_size font_bold register">SUBMIT APPLICATION</button>
-
             </div>
         </div>
         </form>
@@ -86,5 +85,4 @@
 
     <script src="" async defer></script>
 </body>
-
 </html>
