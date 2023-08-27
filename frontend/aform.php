@@ -23,6 +23,8 @@
 </head>
 
 <body class="body">
+    <?php 
+      include('../components/navbar.php');?>
     <div class="parent">
         <div class=" mid_card card card_width ">
             <div class="card-body card_width_body text_left">
