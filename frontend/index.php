@@ -82,11 +82,11 @@
   <div class="parent">
     <div class="mid">
       <div class="button_position">
-        <button role="button" class="btn btn-dark  button_mid"> GET STARTED </button>
-       <a href = " view.php" class="btn btn-dark  button_mid button_view" formaction="view.php"> VIEW ORGS </a>
+      <a href = "../frontend/register.php" class="btn btn-dark  button_mid button_view" formaction="../frontend/register.php"> GET STARTED </a>
+       <a href = "../frontend/view.php" class="btn btn-dark  button_mid button_view" formaction="../frontend/view.php"> VIEW ORGS </a>
       </div>
       <hr class="new4" />
-      <h1 class="head_text">FEATURED ORGANIZATIONS</h1>
+      <h1 class="head_text">Exploring New Horizons? Discover Organizations Here!</h1>
       <p class="p_text">
 
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
