@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar">
             <a href="#" class="logo">
-                <img src="../components/Logo.png" alt="ThomOrg">
+                <img src="../assets/Logo.png" alt="ThomOrg">
             </a>
             </a>
             <ul class="nav-links">
@@ -26,7 +26,7 @@
             </form>
             <div class="dropdown">
                 <div class="user-icon" onclick="toggleDropdown()">
-                    <img src="../components/iconprof.png" alt="User Icon">
+                    <img src="../assets/iconprof.png" alt="User Icon">
                 </div>
                 <div id="myDropdown" class="dropdown-content">
                     <a href="#">My Profile</a>
