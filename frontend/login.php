@@ -68,7 +68,7 @@
 
             </div>
             <div class="button_position">
-                <button type="submit" name="Submit" class="btn btn-warning  button_size font_bold">LOGIN</button>
+                <a href="register.php" type="button" class="btn btn-warning  button_size font_bold">LOGIN</button></a>
                 <a href="register.php" type="button" class="btn btn-dark  button_size font_bold register">REGISTER</button></a>
                 </form>
 
