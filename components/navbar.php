@@ -17,7 +17,7 @@
             <ul class="nav-links">
                 <li><a href="../frontend/index.php">Home</a></li>
                 <li><a href="../frontend/view.php">Organizations</a></li>
-                <li><a href="#" class="button-apply">Apply</a></li>
+                <li><a href="../frontend/aform.php" class="button-apply">Apply</a></li>
             </ul>
             <form class="search-form">
                 <input type="search" placeholder="Search...">
