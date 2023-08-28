@@ -35,7 +35,7 @@
       <div class="carousel-item active">
         <img src="../assets/2.png" class="d-block w-100 filter" alt="..." />
         <div class="carousel-caption d-none d-md-block caption_carousel">
-          <b class="welcome">WELCOME TO THOMASIANS</b>
+          <b class="welcome">WELCOME TO THOMASIANS!</b>
 
           <h1 class="Head_carousel_text">
             To form competent and compassionate persons committed to serve the
