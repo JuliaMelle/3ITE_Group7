@@ -47,11 +47,12 @@ header {
     list-style: none;
     display: flex;
     align-items: center; /* Center vertically */
-    margin-left: 30px; /* Push the links to the right */
+    margin-left: auto; /* Push the links to the right */
+    
 }
 
 .nav-links li {
-    margin-right: 40px; /* Increase spacing between links */
+    margin-right: 20px; /* Increase spacing between links */
 }
 
 .nav-links a {
@@ -88,6 +89,7 @@ header {
     position: relative;
 }
 
+/* ... (remaining CSS rules) */
 
 /* Style the user icon */
 
@@ -139,4 +141,36 @@ header {
 .show {
     display: block;
 }
+/* Use media queries to adjust layout for smaller screens */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
 
+    .nav-links {
+        flex-direction: column;
+        align-items: flex-start; /* Align links to the left */
+        margin-left: 0; /* Reset margin */
+    }
+
+    .nav-links li {
+        margin-right: 0; /* Reset margin */
+        margin-bottom: 10px; /* Add spacing between links */
+    }
+
+    .dropdown {
+        margin-top: 10px; /* Add space above the dropdown */
+        margin-left: auto; /* Push the dropdown to the right */
+    }
+
+    .dropdown-content {
+        position: static; /* Reset position for mobile layout */
+        display: none; /* Hide dropdown by default */
+        width: 100%; /* Make dropdown full width */
+    }
+
+    /* Show the dropdown when it's open */
+    .show {
+        display: block;
+    }
+}
