@@ -219,7 +219,7 @@
 
     <div class="col">
       <div class="card flex_card my-2 h-100">
-        <img src="../assets/bgindex.png" class="card-img-top"  alt="...">
+        <img src="../assets/bgindex.jpg" class="card-img-top"  alt="...">
         <div class="card-body" style="width: 100%!important;">
           <h5 class="card-title"><b>TomasinoWeb</b></h5>
           <p class="card-text"> <b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, molestiae labore? A consequuntur nihil numquam quam ipsam ad ea ullam deserunt ut aut sed tempore ipsum, cupiditate hic sit explicabo. </b></p>
