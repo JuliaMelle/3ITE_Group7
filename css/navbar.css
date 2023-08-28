@@ -30,7 +30,6 @@ header {
 }
 
 /* Style the logo */
-
 .logo {
     display: inline-block;
     padding: 10px;
@@ -55,11 +54,11 @@ header {
     margin-right: 40px; /* Increase spacing between links */
 }
 
-
 .nav-links a {
     text-decoration: none;
     color: white;
 }
+
 .nav-links a.button-apply {
     display: inline-block;
     padding: 10px 20px;
@@ -71,8 +70,9 @@ header {
     font-weight: 500;
     transition: background-color 0.3s, color 0.3s;
     margin-top: -3px;
-    margin-left:-5px;
+    margin-left: -5px;
 }
+
 .nav-links a.button-apply:hover {
     background-color: #333;
     color: #FFC328;
@@ -88,99 +88,37 @@ header {
     position: relative;
 }
 
-/* Style the search input with background icon */
-input[type="search"] {
-    border: none;
-    padding: 8px 35px 8px 35px; /* Adjust padding to accommodate the icon */
-    border-radius: 25px;
-    background-color: white;
-    background-size: 20px; /* Adjust the size of the icon */
-    background-position: 10px center; /* Position the icon on the left side */
-    background-repeat: no-repeat;
-}
-
-/* Style the search input on hover */
-input[type="search"]:hover {
-    background-color: #f0f0f0; /* Change background color on hover */
-    cursor: pointer;
-}
-
-button[type="submit"] {
-    position: inherit;
-    text-indent: -999px;
-    overflow: hidden;
-    width: 40px;
-    padding: 0;
-    margin: 0;
-    left:-40px;
-    border: 1px solid transparent;
-    border-radius: inherit;
-    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
-    cursor: pointer;
-    opacity: 0.7;
-  }
-  
-  button[type="submit"]:hover {
-    opacity: 1;
-  }
-  
-  button[type="submit"]:focus,
-  input[type="search"]:focus {
-    box-shadow: 0 0 3px 0 #1183d6;
-    border-color: #1183d6;
-    outline: none;
-  }
-  
-  form.nosubmit {
-   border: none;
-   padding: 0;
-  }
-  
-  input.nosubmit {
-    border: 1px solid #555;
-    width: 100%;
-    padding: 9px 4px 9px 40px;
-     background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
-  }
-/* ... (remaining CSS rules) */
-
-/* ... (remaining CSS rules) */
 
 /* Style the user icon */
-.user-icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid white;
-    cursor: pointer;
-    margin-left: 10px;
-    overflow: hidden;
-    cursor: pointer;
-}
 
-.user-icon img {
+.user-icon {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-    margin-left: 10px; /* Adjust as needed */
+    
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+    overflow: hidden;
+    
 }
 
-
+/* ... (previous CSS rules) */
 
 /* Style the dropdown content */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white; /* Set background color */
-    border: 1px solid #ccc; /* Add border */
+    background-color: white;
+    border: 1px solid #ccc;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    /* Adjust the position to match the user icon */
+    top: 60px;
+    right: 0;
 }
+
 
 /* Style the dropdown content links */
 .dropdown-content a {
@@ -201,3 +139,4 @@ button[type="submit"] {
 .show {
     display: block;
 }
+
