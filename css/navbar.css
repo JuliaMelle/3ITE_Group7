@@ -48,11 +48,12 @@ header {
     display: flex;
     align-items: center; /* Center vertically */
     margin-left: auto; /* Push the links to the right */
+    padding-top: 25px;
     
 }
 
 .nav-links li {
-    margin-right: 20px; /* Increase spacing between links */
+    margin-right: 30px; /* Increase spacing between links */
 }
 
 .nav-links a {

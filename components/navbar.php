@@ -11,7 +11,7 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="#" class="logo">
+            <a href="../frontend/index.php" class="logo">
                 <img src="../assets/Logo.png" alt="ThomOrg">
             </a>
             <ul class="nav-links">
