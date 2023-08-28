@@ -12,22 +12,21 @@
     <header>
         <nav class="navbar">
             <a href="#" class="logo">
-                <img src="../assets/Logo.png" alt="ThomOrg">
-            </a>
+                <img src="../components/Logo.png" alt="ThomOrg">
             </a>
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Organizations</a></li>
-                <li><a href="#" class="button-apply">Apply</a>
+                <li><a href="#" class="button-apply">Apply</a></li>
             </ul>
             <form class="search-form">
                 <input type="search" placeholder="Search...">
                 <button type="submit">Search</button>
             </form>
             <div class="dropdown">
-                <div class="user-icon" onclick="toggleDropdown()">
-                    <img src="../assets/iconprof.png" alt="User Icon">
-                </div>
+                
+                    <img src="../components/iconprof.png" alt="User Icon" onclick="toggleDropdown()" class="user-icon">
+                
                 <div id="myDropdown" class="dropdown-content">
                     <a href="#">My Profile</a>
                     <hr>
