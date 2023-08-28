@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="../css/navbar.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/global.css" />
     <script src="../components/navbar.js"></script>
     <title>Navigation Bar</title>
 </head>
@@ -21,7 +21,7 @@
             </ul>
             <form class="search-form">
                 <input type="search" placeholder="Search...">
-                <button type="submit">Search</button>
+                <button type="glass">Search</button>
             </form>
             <div class="dropdown">
                 

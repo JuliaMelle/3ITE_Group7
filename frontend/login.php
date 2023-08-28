@@ -22,8 +22,9 @@
 </head>
 
 <body class="body">
-    <?php 
-  include('../components/navbar.php');?>
+  <?php
+    include('../components/navbar.php');
+    ?>
     <div class="parent">
         <?php
         if (isset($_GET['fillout'])) { //check if authenticate key exists in URL
@@ -67,7 +68,7 @@
 
             </div>
             <div class="button_position">
-                <button type="submit" name="Submit" class="btn btn-warning  button_size font_bold">LOGIN</button>
+                <a href="register.php" type="button" class="btn btn-warning  button_size font_bold">LOGIN</button></a>
                 <a href="register.php" type="button" class="btn btn-dark  button_size font_bold register">REGISTER</button></a>
                 </form>
 
