@@ -19,9 +19,9 @@
                     </a>
                 </li>
                 <li class="hamburger-menu">
-                    <div class="hamburger-icon">
+                    <button id="navToggleButton" class="hamburger-icon">
                         <img src="../assets/hamburger.png" alt="Ham Icon" class="h-icon">
-                    </div>
+                    </button>
                 </li>
             <div class="items">
                 <li><a href="../frontend/index.php">Home</a></li>
@@ -46,6 +46,19 @@
             </div>
             </ul>
         </nav>
+        <script>
+        const navToggleButton = document.getElementById('navToggleButton');
+        const navLinksContainer = document.querySelector('.items');
+
+        navToggleButton.addEventListener('click', () => {
+            navLinksContainer.classList.toggle('show');
+            if (navLinksContainer.classList.contains('show')) {
+                navLinksContainer.style.top = '60px';
+            } else {
+                navLinksContainer.style.top = '-220px';
+            }
+        });
+    </script>
 
         
 

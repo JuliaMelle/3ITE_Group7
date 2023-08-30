@@ -48,6 +48,21 @@ nav ul div.items a{
 nav ul div.items a:hover{
     color:yellow;
 }
+nav ul div.items li:nth-child(3) a {
+    width:40px;
+    color: black;
+    background-color: #FFC328;
+    border-radius: 15px;
+    padding: 10px 20px; /* Adjust padding for better appearance */
+    transition: background-color 0.3s ease; /* Add transition for smooth color change */
+}
+
+/* Style the "Apply" link on hover */
+nav ul div.items li:nth-child(3) a:hover {
+    background-color: rgba(255, 255, 0, 0.5); /* Yellow with lower opacity */
+    color: white; /* Text color set to black on hover */
+    transition: background-color 0.3s ease;
+}
 nav ul .search-icon{
     height:37px;
     width: 230px;
@@ -91,13 +106,20 @@ nav ul .search-icon .icon{
     display: flex;
     align-items: center;
     margin-right: 10px; /* Adjust margin for spacing */
-    cursor: pointer;
+    
 }
+.hamburger-icon{
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    
+}
+
 
 /* Style the hamburger menu icon */
 .hamburger-icon img {
     width: 50px; /* Adjust icon width */
-    height: 20px; /* Adjust icon height */
+    height: 30px; /* Adjust icon height */
     display: none;
     cursor: pointer;
 }
@@ -106,17 +128,22 @@ nav ul .search-icon .icon{
         display:block;
     }
     nav{
-        z-index: 1;
         padding: 9px 40px 9px 0;
     }
     nav ul div.items{
-        z-index: -1;
+        z-index: 1;
         position:fixed;
-        top: 60px;
         right:0;
+        top: -220px;
         width:100%;
         background:#222222;
         display: inline-block;
+        transition: top 0.3s ease;
+    }
+    
+    nav ul div.items.show {
+        top: 60px;
+        z-index: 1;
     }
     
     nav ul div.items li{
@@ -132,13 +159,13 @@ nav ul .search-icon .icon{
         margin-left: 10px; /* Decrease margin for smaller screens */
     }
 }
-@media screen and (max-width: 1248px){
+@media screen and (max-width: 1307px){
     nav ul div.items{
         margin-right:auto;
 
     }
 }
-@media screen and (max-width: 1042px){
+@media screen and (max-width: 1110px){
     nav{
         padding: 10px 40px 10px 0px;
     }
@@ -182,6 +209,7 @@ nav ul .search-icon .icon{
     /* Adjust the position to match the user icon */
     top: 60px;
     right: 0;
+    transition: top 0.3s ease, right 0.3s ease; 
 }
 
 
@@ -204,8 +232,9 @@ nav ul .search-icon .icon{
 .show {
     display: block;
 }
+
 /* Use media queries to adjust layout for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 0px) {
   
     .dropdown {
         margin-top: 1px; /* Add space above the dropdown */
@@ -213,9 +242,14 @@ nav ul .search-icon .icon{
     }
 
     .dropdown-content {
+       
         position: static; /* Reset position for mobile layout */
         display: none; /* Hide dropdown by default */
         width: 100%; /* Make dropdown full width */
+        top: 60px; /* Keep the dropdown below the user icon */
+        right: -160px; /* Float the dropdown outside the navigation bar */
+        /* Adjust any necessary styles for better appearance */
+        transition: top 0.3s ease, right 0.3s ease; /* Add transitions for smooth animation */
     }
 
     /* Show the dropdown when it's open */
