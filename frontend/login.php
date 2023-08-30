@@ -23,7 +23,7 @@
 
 <body class="body">
   <?php
-    include('../components/navbarnew.php');
+    include('../components/navbar.php');
     ?>
     <div class="parent">
         <?php
