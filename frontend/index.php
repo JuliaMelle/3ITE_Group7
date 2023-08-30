@@ -23,7 +23,7 @@
 
 <body style="height: 100vh">
   <?php 
-  include('../components/navbar.php');?>
+  include('../components/navbarnew.php');?>
   <!-- carousel -->
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
     <div class="carousel-indicators">

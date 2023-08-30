@@ -23,7 +23,7 @@
 
 <body class="body">
     <?php 
-      include('../components/navbar.php');?>
+      include('../components/navbarnew.php');?>
     <div class="parent">
     <?php
         if (isset($_GET['authenticate'])) { //check if authenticate key exists in URL

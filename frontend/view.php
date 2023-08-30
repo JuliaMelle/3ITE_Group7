@@ -23,7 +23,7 @@
 
 <body style="height: 100vh">
 <?php 
-      include('../components/navbar.php');?>
+      include('../components/navbarnew.php');?>
 
 <!-- search bar -->
 

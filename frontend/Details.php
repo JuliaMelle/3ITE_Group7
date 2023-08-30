@@ -11,7 +11,7 @@
 <body>
 
     <!-- Navbar -->
-    <?php include('../components/navbar.php'); ?>
+    <?php include('../components/navbarnew.php'); ?>
 
      <!-- Back Button -->
      <div class="container mt-3">
