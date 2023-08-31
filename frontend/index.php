@@ -102,7 +102,7 @@
   <div class="row row-cols-1 row-cols-md-3 g-3 mx-4 my-3 flex_card">
     <div class="col">
       <div class="card flex_card">
-        <img src="../assets/bgindex.jpg" class="card-img-top" alt="...">
+        <img src="../assets/unesco.jpg" class="card-img-top" alt="...">
         <div class="card-body display_mid" style="width: 100%!important;">
           <!-- <h5 class="card-title" >Card title</h5> -->
           <p class="card-text"> <b> </b></p>
@@ -113,7 +113,7 @@
     </div>
     <div class="col">
       <div class="card flex_card">
-        <img src="../assets/bgindex.jpg" class="card-img-top" alt="...">
+        <img src="../assets/tomweb1.jpg" class="card-img-top" alt="...">
         <div class="card-body display_mid" style="width: 100%!important;">
           <!-- <h5 class="card-title" >Card title</h5> -->
           <p class="card-text"> <b> </b></p>
@@ -124,7 +124,7 @@
     </div>
     <div class="col">
       <div class="card flex_card">
-        <img src="../assets/bgindex.jpg" class="card-img-top" alt="...">
+        <img src="../assets/ustbecarios.jpg" class="card-img-top" alt="...">
         <div class="card-body display_mid " style="width: 100%!important;">
           <!-- <h5 class="card-title" >Card title</h5> -->
           <p class="card-text"> <b> </b></p>
@@ -137,7 +137,7 @@
     </div>
     <div class="col">
       <div class="card flex_card">
-        <img src="../assets/bgindex.jpg" class="card-img-top" alt="...">
+        <img src="../assets/sgawi.jpg" class="card-img-top" alt="...">
         <div class="card-body display_mid" style="width: 100%!important;">
           <!-- <h5 class="card-title" >Card title</h5> -->
           <p class="card-text"> <b> </b></p>
@@ -149,7 +149,7 @@
 
     <div class="col">
       <div class="card flex_card">
-        <img src="../assets/bgindex.jpg" class="card-img-top" alt="...">
+        <img src="../assets/teatrotomasino.png" class="card-img-top" alt="...">
         <div class="card-body display_mid" style="width: 100%!important;">
           <!-- <h5 class="card-title" >Card title</h5> -->
           <p class="card-text"> <b> </b></p>
@@ -161,7 +161,7 @@
 
     <div class="col">
       <div class="card flex_card">
-        <img src="../assets/bgindex.jpg" class="card-img-top" alt="...">
+        <img src="../assets/musicat.jpg" class="card-img-top" alt="...">
         <div class="card-body display_mid" style="width: 100%!important;">
           <!-- <h5 class="card-title" >Card title</h5> -->
           <p class="card-text"> <b> </b></p>
