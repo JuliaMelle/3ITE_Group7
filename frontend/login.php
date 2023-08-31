@@ -59,7 +59,7 @@
         ?>
         <div class=" mid_card card card_width ">
             <div class="card-body card_width_body text_left">
-                <h3 class="card-title font_bold create_acc">WELCOME THOMASIANS</h3>
+                <h3 class="card-title font_bold create_acc">WELCOME THOMASIANS!</h3>
                 <!-- <p class="card-text">WELCOME TO UST</p> -->
                 <form action="../backend/authenticate.php" method="post">
                     <input class="form-control margin_forms font_bold" type="text" placeholder="USERNAME" aria-label="default input example" name="username">
@@ -68,8 +68,8 @@
 
             </div>
             <div class="button_position">
-                <a href="register.php" type="button" class="btn btn-warning  button_size font_bold">LOGIN</button></a>
-                <a href="register.php" type="button" class="btn btn-dark  button_size font_bold register">REGISTER</button></a>
+                <a href="register.php" type="button" class="btn btn-warning  button_size font_bold">REGISTER</button></a>
+                <a href="register.php" type="button" class="btn btn-dark  button_size font_bold register">LOGIN</button></a>
                 </form>
 
             </div>

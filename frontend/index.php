@@ -91,12 +91,10 @@
       <h1 class="head_text">Exploring New Horizons? Discover Organizations Here!</h1>
       <p class="p_text">
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor
-        sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-        incididunt ut labore et dolore magna aliqua.
+      Embark on a journey of personal and professional growth as you explore a wealth of organizations waiting to be discovered.
+      There are organizations out there that are a perfect match, ready to help you hone your talents and waiting to harness your potential. 
+      So, dive into this world of opportunities, find the organizations that resonate with your aspirations, and let your journey towards skill 
+      enhancement and success begin today!
       </p>
     </div>
   </div>

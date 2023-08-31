@@ -24,9 +24,9 @@
                     </button>
                 </li>
             <div class="items">
-                <li><a href="../frontend/index.php">Home</a></li>
-                <li><a href="../frontend/view.php">Organizations</a></li>
-                <li><a href="../frontend/aform.php">Apply</a></li>
+                <li><a href="../frontend/index.php">HOME</a></li>
+                <li><a href="../frontend/view.php">ORGS</a></li>
+                <li><a href="../frontend/aform.php">APPLY</a></li>
             </div>
                 <li class="search-icon">
                     <input type="search" placeholder="Search...">

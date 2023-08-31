@@ -27,7 +27,7 @@ nav ul li a.logo{
     margin-right: 10px;
 }
 nav ul li a.logo img {
-    width: 150px; /* Set the width you prefer */
+    width: 200px; /* Set the width you prefer */
     height: auto; /* Maintain aspect ratio */
 }
 nav ul div.items{
@@ -46,7 +46,7 @@ nav ul div.items a{
 
 }
 nav ul div.items a:hover{
-    color:yellow;
+    color: #FFC328;
 }
 nav ul div.items li:nth-child(3) a {
     width:30px;
@@ -59,7 +59,8 @@ nav ul div.items li:nth-child(3) a {
 
 /* Style the "Apply" link on hover */
 nav ul div.items li:nth-child(3) a:hover {
-    background-color: rgba(255, 255, 0, 0.5); /* Yellow with lower opacity */
+    font-weight: 800;
+    background-color: #f5b207; /* Yellow with lower opacity */
     color: white; /* Text color set to black on hover */
     transition: background-color 0.3s ease;
 }
