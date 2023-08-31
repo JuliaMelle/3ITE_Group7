@@ -219,59 +219,60 @@
 
     <div class="col">
       <div class="card flex_card my-2 h-100">
-        <img src="../assets/bgindex.jpg" class="card-img-top"  alt="...">
+        <img src="../assets/tomweb1.jpg" class="card-img-top"  alt="...">
         <div class="card-body" style="width: 100%!important;">
           <h5 class="card-title"><b>TomasinoWeb</b></h5>
-          <p class="card-text"> <b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, molestiae labore? A consequuntur nihil numquam quam ipsam ad ea ullam deserunt ut aut sed tempore ipsum, cupiditate hic sit explicabo. </b></p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card flex_card my-2 h-100">
-        <img src="../assets/bgindex.jpg" class="card-img-top" alt="...">
-        <div class="card-body" style="width: 100%!important;">
-          <h5 class="card-title" >Card title</h5>
-          <p class="card-text"> <b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, molestiae labore? A consequuntur nihil numquam quam ipsam ad ea ullam deserunt ut aut sed tempore ipsum, cupiditate hic sit explicabo. </b></p>
+          <p class="card-text">TomasinoWeb is the premier digital media organization of the University of Santo Tomas joined by students who are immensely interested in multimedia journalism.</p>
         </div>
       </div>
     </div>
 
     <div class="col">
       <div class="card flex_card my-2 h-100">
-        <img src="../assets/bgindex.jpg" class="card-img-top" alt="...">
+        <img src="../assets/ustartlets.jpg" class="card-img-top" alt="...">
         <div class="card-body" style="width: 100%!important;">
-          <h5 class="card-title" >Card title</h5>
-          <p class="card-text"> <b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, molestiae labore? A consequuntur nihil numquam quam ipsam ad ea ullam deserunt ut aut sed tempore ipsum, cupiditate hic sit explicabo. </b></p>
+          <h5 class="card-title"><b>Artlets Economics Society</b></h5>
+          <p class="card-text">Artlets Economics Society (AES) is a duly recognized organization of the Faculty of Arts and Letters of the University of Santo Tomas.</p>
         </div>
       </div>
     </div>
 
     <div class="col">
-      <div class="card flex_card my-2">
-        <img src="../assets/bgindex.jpg" class="card-img-top" alt="...">
+      <div class="card flex_card my-2 h-100">
+        <img src="../assets/sgawi.jpg" class="card-img-top" alt="...">
         <div class="card-body" style="width: 100%!important;">
-          <h5 class="card-title" >Card title</h5>
-          <p class="card-text"> <b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, molestiae labore? A consequuntur nihil numquam quam ipsam ad ea ullam deserunt ut aut sed tempore ipsum, cupiditate hic sit explicabo. </b></p>
+        <h5 class="card-title"><b>UST Salinggawi Dance Troupe</b></h5>
+          <p class="card-text">The UST Salinggawi Dance Troupe, is the University-wide organization for dance and the official dance troupe of the University of Santo Tomas. The group is known for its versatility covering wide array of genre from performing arts to cheerleading, from contemporary to breakdancing.</p>
         </div>
       </div>
     </div>
 
     <div class="col">
-      <div class="card flex_card my-2">
-        <img src="../assets/bgindex.jpg" class="card-img-top" alt="...">
+      <div class="card flex_card my-2 h-100">
+        <img src="../assets/usteconomic.jpg" class="card-img-top" alt="...">
         <div class="card-body" style="width: 100%!important;">
-          <h5 class="card-title" >Card title</h5>
-          <p class="card-text"> <b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, molestiae labore? A consequuntur nihil numquam quam ipsam ad ea ullam deserunt ut aut sed tempore ipsum, cupiditate hic sit explicabo. </b></p>
+          <h5 class="card-title"><b>UST Economics Society</b></h5>
+          <p class="card-text">Business Economic Department, a community of young and aspiring economists became globally competitive and socially aware individuals.</p>
         </div>
       </div>
     </div>
 
     <div class="col">
-      <div class="card flex_card my-2">
-        <img src="../assets/bgindex.jpg" class="card-img-top" alt="...">
+      <div class="card flex_card my-2 h-100">
+        <img src="../assets/tgs.png" class="card-img-top" alt="...">
         <div class="card-body" style="width: 100%!important;">
-          <h5 class="card-title" >Card title</h5>
-          <p class="card-text"> <b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, molestiae labore? A consequuntur nihil numquam quam ipsam ad ea ullam deserunt ut aut sed tempore ipsum, cupiditate hic sit explicabo. </b></p>
+          <h5 class="card-title"><b>Thomasian Gaming Society</b></h5>
+          <p class="card-text">The Thomasian Gaming Society is the Official Video Game Organization of the University of Santo Tomas.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class="card flex_card my-2 h-100">
+        <img src="../assets/unesco.jpg" class="card-img-top" alt="...">
+        <div class="card-body" style="width: 100%!important;">
+          <h5 class="card-title"><b>UNESCO Club</b></h5>
+          <p class="card-text">UNESCO Club of University of Santo Tomas is a University-Wide Organization in the University of Santo Tomas and an accredited UNESCO Club of the UNESCO National Commission of the Philippines.</p>
         </div>
       </div>
     </div>
