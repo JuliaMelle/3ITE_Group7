@@ -68,8 +68,10 @@
                         <option value="COLLEGE OF NURSING" name="program">COLLEGE OF NURSING</option>
                         <option value="COLLEGE OF TOURISM AND HOSPITALITY MANAGEMENT" name="program">COLLEGE OF TOURISM AND HOSPITALITY MANAGEMENT</option>
                     </select>
-
+               
                     <input class="form-control margin_forms font_bold" type="text" placeholder="EMAIL ADDRESS" aria-label="default input example" name="email" required>
+                    <input class="form-control margin_forms font_bold" type="text" placeholder="ORGANIZATION" aria-label="default input example" name="org" required>
+                    <input class="form-control margin_forms font_bold" type="text" placeholder="POSITION" aria-label="default input example" name="position" required>
                     <div class="mb-3">
                         <label for="formFile" class="form-label text_left font_bold">CURRICULUM VITAE</label>
                         <input class="form-control" type="file" id="formFile" name="image"></input>
