@@ -95,14 +95,12 @@
       </div>
     </div>
 
-   <div class="col">
+    <div class="col">
       <div class="card flex_card border border-2 border-dark h-75 justify-content-center">
         <div class="card-body d-inline-flex">
-          <img src="../assets/amv.png" class="card-img-top" style="width: 14%" alt="...">
+        <img src="../assets/amv.png" class="card-img-top me-3" style="width: 14%" alt="...">
             <!-- <h5 class="card-title" >Card title</h5> -->
-            <div class = "card-body">
-              <p class="card-text"> <b>AMV COLLEGE OF ACCOUNTANCY </b></p>
-            </div>
+              <p class="card-text ms-2"> <b>AMV COLLEGE OF ACCOUNTANCY </b></p>
         </div>
       </div>
     </div>
@@ -141,12 +139,10 @@
 
     <div class="col">
       <div class="card flex_card border border-2 border-dark h-75 justify-content-center">
-        <div class="card-body d-inline-flex">
-          <img src="../assets/fine-arts.png" class="card-img-top" style="width: 14%" alt="...">
+        <div class="card-body d-inline-flex ">
+          <img src="../assets/fine-arts.png" class="card-img-top me-3" style="width: 14%" alt="...">
             <!-- <h5 class="card-title" >Card title</h5> -->
-            <div class = "card-body">
-              <p class="card-text"> <b>COLLEGE OF FINE ARTS AND DESIGN</b></p>
-            </div>
+              <p class="card-text"> <b>COLLEGE OF FINE ARTS AND DESIGN </b></p>
         </div>
       </div>
     </div>
@@ -196,6 +192,7 @@
         </div>
       </div>
     </div>
+
   </div>
   <!------->
 
