@@ -64,7 +64,7 @@
     <div class="col">
       <div class="card flex_card border border-dark border-2 h-75 justify-content-center">
         <div class="card-body d-inline-flex">
-          <img src="../assets/arts.png" class="card-img-top" style="width: 13%" alt="...">
+          <img src="../assets/arts.png" class="card-img-top" style="width: 60px; height:60px;" alt="...">
             <!-- <h5 class="card-title" >Card title</h5> -->
             <div class = "card-body">
               <p class="card-text"> <b> FACULTY OF ARTS AND LETTERS  </b></p>
@@ -76,7 +76,7 @@
     <div class="col">
       <div class="card flex_card border border-dark border-2 h-75 justify-content-center">
         <div class="card-body d-inline-flex ">
-          <img src="../assets/business.png" class="card-img-top me-3" style="width: 14%" alt="...">
+          <img src="../assets/business.png" class="card-img-top me-3" style="width: 60px; height:60px;" alt="...">
             <!-- <h5 class="card-title" >Card title</h5> -->
               <p class="card-text"> <b>COLLEGE OF COMMERCE AND BUSINESS ADMINISTRATION </b></p>
         </div>
@@ -86,7 +86,7 @@
     <div class="col">
       <div class="card flex_card border border-2 border-dark h-75 justify-content-center">
         <div class="card-body d-inline-flex">
-          <img src="../assets/educ.png" class="card-img-top" style="width: 14%" alt="...">
+          <img src="../assets/educ.png" class="card-img-top" style="width: 60px; height:60px;" alt="...">
             <!-- <h5 class="card-title" >Card title</h5> -->
             <div class = "card-body">
               <p class="card-text"> <b> COLLEGE OF EDUCATION </b></p>
@@ -98,7 +98,7 @@
     <div class="col">
       <div class="card flex_card border border-2 border-dark h-75 justify-content-center">
         <div class="card-body d-inline-flex">
-        <img src="../assets/amv.png" class="card-img-top me-3" style="width: 14%" alt="...">
+        <img src="../assets/amv.png" class="card-img-top me-3" style="width: 60px; height:60px;" alt="...">
             <!-- <h5 class="card-title" >Card title</h5> -->
               <p class="card-text ms-2"> <b>AMV COLLEGE OF ACCOUNTANCY </b></p>
         </div>
@@ -108,7 +108,7 @@
     <div class="col">
       <div class="card flex_card border border-2 border-dark h-75 justify-content-center ">
         <div class="card-body d-inline-flex ">
-          <img src="../assets/tourism.png" class="card-img-top me-3" style="width: 14%" alt="...">
+          <img src="../assets/tourism.png" class="card-img-top me-3" style="width: 60px; height:60px;" alt="...">
             <!-- <h5 class="card-title" >Card title</h5> -->
               <p class="card-text"> <b>COLLEGE OF TOURISM AND HOSPITALITY MANAGEMENT </b></p>
         </div>
@@ -118,7 +118,7 @@
     <div class="col">
       <div class="card flex_card border border-2 border-dark h-75 justify-content-center">
         <div class="card-body d-inline-flex">
-          <img src="../assets/arch.png" class="card-img-top" style="width: 14%" alt="...">
+          <img src="../assets/arch.png" class="card-img-top" style="width: 60px; height:60px;" alt="...">
             <!-- <h5 class="card-title" >Card title</h5> -->
             <div class = "card-body">
               <p class="card-text"> <b>COLLEGE OF ARCHITECTURE </b></p>
@@ -130,7 +130,7 @@
     <div class="col">
       <div class="card flex_card border border-2 border-dark h-75 justify-content-center">
         <div class="card-body d-inline-flex ">
-          <img src="../assets/cics.png" class="card-img-top me-3" style="width: 14%" alt="...">
+          <img src="../assets/cics.png" class="card-img-top me-3" style="width: 60px; height:60px;" alt="...">
             <!-- <h5 class="card-title" >Card title</h5> -->
               <p class="card-text"> <b>COLLEGE OF INFORMATION AND COMPUTING SCIENCES </b></p>
         </div>
@@ -140,7 +140,7 @@
     <div class="col">
       <div class="card flex_card border border-2 border-dark h-75 justify-content-center">
         <div class="card-body d-inline-flex ">
-          <img src="../assets/fine-arts.png" class="card-img-top me-3" style="width: 14%" alt="...">
+          <img src="../assets/fine-arts.png" class="card-img-top me-3" style="width: 60px; height:60px;" alt="...">
             <!-- <h5 class="card-title" >Card title</h5> -->
               <p class="card-text"> <b>COLLEGE OF FINE ARTS AND DESIGN </b></p>
         </div>
@@ -150,7 +150,7 @@
     <div class="col">
       <div class="card flex_card border border-2 border-dark h-75 justify-content-center">
         <div class="card-body d-inline-flex">
-          <img src="../assets/eng.png" class="card-img-top" style="width: 14%" alt="...">
+          <img src="../assets/eng.png" class="card-img-top" style="width: 60px; height:60px;" alt="...">
             <!-- <h5 class="card-title" >Card title</h5> -->
             <div class = "card-body">
               <p class="card-text"> <b>FACULTY OF ENGINEERING </b></p>
@@ -162,7 +162,7 @@
     <div class="col">
       <div class="card flex_card border border-2 border-dark h-75 justify-content-center">
         <div class="card-body d-inline-flex">
-          <img src="../assets/nursing.png" class="card-img-top" style="width: 14%" alt="...">
+          <img src="../assets/nursing.png" class="card-img-top" style="width: 60px; height:60px;" alt="...">
             <!-- <h5 class="card-title" >Card title</h5> -->
             <div class = "card-body">
               <p class="card-text"> <b>COLLEGE OF NURSING </b></p>
@@ -174,7 +174,7 @@
     <div class="col">
       <div class="card flex_card border border-2 border-dark h-75 justify-content-center">
         <div class="card-body d-inline-flex">
-          <img src="../assets/pharma.png" class="card-img-top" style="width: 14%" alt="...">
+          <img src="../assets/pharma.png" class="card-img-top" style="width: 60px; height:60px;" alt="...">
             <!-- <h5 class="card-title" >Card title</h5> -->
             <div class = "card-body">
               <p class="card-text"> <b>FACULTY OF PHARMACY </b></p>
@@ -186,7 +186,7 @@
     <div class="col">
       <div class="card flex_card border border-2 border-dark h-75 justify-content-center ">
         <div class="card-body d-inline-flex ">
-          <img src="../assets/medicine.png" class="card-img-top me-3" style="width: 14%" alt="...">
+          <img src="../assets/medicine.png" class="card-img-top me-3" style="width: 60px; height:60px;" alt="...">
             <!-- <h5 class="card-title" >Card title</h5> -->
               <p class="card-text"> <b>FACULTY OF MEDICINE AND SURGERY</b></p>
         </div>
