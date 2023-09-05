@@ -215,7 +215,7 @@
   </div>
 
   <!-- cards -->
-  <div class="row row-cols-1 row-cols-md-3 g-3 mx-4 my-3 flex_card">
+  <div class="row row-cols-1 row-cols-md-3 g-3 mx-4 my-3 mb-5 flex_card">
 
     <div class="col">
       <div class="card flex_card my-2 h-100">
@@ -276,14 +276,10 @@
         </div>
       </div>
     </div>
-    
   </div>
+   <?php 
+      include('../components/footer.php');?>
 
-  <div class = "container-fluid bg-primary">
-
-   </div>
-
-  <div class="end"></div>
 
   <script src="" async defer></script>
 </body>
