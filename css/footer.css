@@ -1,0 +1,16 @@
+.items {
+    width:100%;
+    transition: top 0.3s ease;
+}
+
+.items a {
+    text-decoration: none;
+}
+
+.copyright {
+    font-size: 0.8em;
+}
+
+.logo {
+    max-width: 200px;
+}
